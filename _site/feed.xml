@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math and Pencil</title>
+    <description>a fresh (so fetch) set of tools  elevating public relations and event management via data science</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>How To Export Contacts From Apple To Fetcher</title>
+        <description>&lt;p&gt;If you want to export your contacts from any Apple computer to GetFetcher.com, please following the following instructions:&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+        <link>/export-contacts-from-apple-to-fetcher</link>
+        <guid isPermaLink="true">/export-contacts-from-apple-to-fetcher</guid>
+      </item>
+    
+  </channel>
+</rss>

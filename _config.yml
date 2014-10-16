@@ -1,0 +1,15 @@
+# Site settings
+name: Math and Pencil 
+title: 
+email: info@getfetcher.com
+description: "a fresh (so fetch) set of tools  elevating public relations and event management via data science"
+url: "https://www.getfetcher.com"
+username: "getfetcher"
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#baseurl: "http://blog.getfetcher.com"
+baseurl: ""
+
