@@ -1,6 +1,5 @@
 # Site settings
-name:Fetcher
-title: 
+name: Fetcher
 email: info@getfetcher.com
 description: "a fresh (so fetch) set of tools  elevating public relations and event management via data science"
 url: "https://www.getfetcher.com"
