@@ -9,6 +9,6 @@ username: "getfetcher"
 markdown: kramdown
 permalink: /:title
 
-baseurl: "http://blog.getfetcher.com"
-#baseurl: ""
+#baseurl: "http://blog.getfetcher.com"
+baseurl: ""
 
