@@ -8,7 +8,21 @@
     
       <item>
         <title>How To Export Contacts From Apple To Fetcher</title>
-        <description>&lt;p&gt;If you want to export your contacts from any Apple computer to GetFetcher.com, please following the following instructions:&lt;/p&gt;
+        <description>&lt;p&gt;If you are currently using Apple’s Mail application for email, you need to pull your contacts from this application and upload them to GetFetcher.com. Since Apple’s Contacts application does not have a &lt;strong&gt;Export To CSV&lt;/strong&gt; functionality, you can convert the output to CSV in a few short steps.&lt;/p&gt;
+
+&lt;p&gt;First, you need to export your current contacts. You can do this by opening up the Contacts application, clicking the contact group you want to export on the left hand panel (if you have multiple email addresses, you will have more than one group).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/export_contacts.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, you need to export the contacts as &lt;strong&gt;VCard&lt;/strong&gt;. You can do this by selecting ** File -&amp;gt; Export -&amp;gt; Export vCard ** and then saving the file to your location hard drive. By default, it saves this file in your &lt;strong&gt;Documents&lt;/strong&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/save_contacts.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, you need to use a third-party service to convert your newly downloaded vCard to CSV. To do this, you can go to the following &lt;a href=&quot;http://labs.brotherli.ch/vcfconvert/index.php&quot;&gt;link&lt;/a&gt;, and upload the vCard. Make sure you select format to be CSV (not Gamil CSV), separate by commas, and check the box for &lt;strong&gt;Add header line&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/upload_contacts.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You are now finished. You can upload the resulting CSV to GetFetcher.com&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
         <link>/export-contacts-from-apple-to-fetcher</link>
