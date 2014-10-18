@@ -4,7 +4,7 @@ title:  "Importing Contacts To Fetcher"
 date:   2014-1-1
 ---
 
-Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are `xls`, `xlsx`, and 'csv'. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only **require** fields for contacts are:
+Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are `xls`, `xlsx`, and `csv`. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only **require** fields for contacts are:
 
 1. primary email
 1. first name
@@ -39,4 +39,4 @@ The following columns names are currently accepted by GetFetcher.com
 
 One important thing to notice is we **do not** accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be *secondary_email**  not **secondary email**.
 
-Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetecher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (xls,xlsx) instead of using CSV so we are  able to successfully upload all of your contacts.
+Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetecher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (`xls`,`xlsx`) instead of using CSV so we are  able to successfully upload all of your contacts.
