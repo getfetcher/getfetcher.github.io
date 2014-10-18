@@ -3,10 +3,10 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Fetcher</title>
+	<title>Importing Contacts To Fetcher</title>
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="a fresh (so fetch) set of tools  elevating public relations and event management via data science">
-	<link rel="canonical" href="/">
+	<link rel="canonical" href="/importing-contacts-to-fetcher">
 	
 	<link href='//fonts.googleapis.com/css?family=Titillium+Web:400,200|Lato:300,400,700|Pacifico' rel='stylesheet' type='text/css' />
 	
@@ -19,7 +19,7 @@
 	mixpanel.init("55ef56f5e64295bfca50e477c0f0e0e2");</script><!-- end Mixpanel -->
 	
 	<script>
-	mixpanel.track("/index.html");
+	mixpanel.track("/importing-contacts-to-fetcher");
 	</script>
 	
 </head>
@@ -41,22 +41,55 @@
 		
 		<div class="page-content">
 			<div class="wrap">
-				<div class="home">
-	<h1>Posts</h1>
+				<div class="post" style="padding:1.85em 0.75em;">
+	<header class="post-header">
+		<p class="meta"></p>
+		
+		<h1>Importing Contacts To Fetcher</h1>
+	</header>
 	
-	<ul class="posts">
-	
-		<li>
-			<span class="checkmark icon-checkmark"></span>
-			<a class="post-link" href="/importing-contacts-to-fetcher">Importing Contacts To Fetcher</a>
-		</li>
-	
-		<li>
-			<span class="checkmark icon-checkmark"></span>
-			<a class="post-link" href="/export-contacts-from-apple-to-fetcher">How To Export Contacts From Apple To Fetcher</a>
-		</li>
-	
-	</ul>
+	<article class="post-content">
+		<p>Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are <code>xls</code>, <code>xlsx</code>, and ‘csv’. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only <strong>require</strong> fields for contacts are:</p>
+
+<ol>
+  <li>primary email</li>
+  <li>first name</li>
+  <li>last name</li>
+</ol>
+
+<p>The following columns names are currently accepted by GetFetcher.com</p>
+
+<ol>
+  <li>first_name</li>
+  <li>last_name</li>
+  <li>city</li>
+  <li>state</li>
+  <li>email</li>
+  <li>primary_email</li>
+  <li>full_name</li>
+  <li>affiliation</li>
+  <li>company</li>
+  <li>first</li>
+  <li>last</li>
+  <li>notes</li>
+  <li>title</li>
+  <li>prefix</li>
+  <li>asst_first_name</li>
+  <li>asst_email</li>
+  <li>asst_phone_number</li>
+  <li>mgr_pbl_name</li>
+  <li>mgr_pbl_email</li>
+  <li>partner</li>
+  <li>twitter</li>
+  <li>instagram</li>
+  <li>secondary_email</li>
+</ol>
+
+<p>One important thing to notice is we <strong>do not</strong> accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be *secondary_email**  not <strong>secondary email</strong>.</p>
+
+<p>Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetecher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (xls,xlsx) instead of using CSV so we are  able to successfully upload all of your contacts.</p>
+
+	</article>
 </div>
 			</div>
 		</div>

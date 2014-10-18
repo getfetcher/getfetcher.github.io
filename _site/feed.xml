@@ -7,6 +7,53 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Importing Contacts To Fetcher</title>
+        <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt;, &lt;code&gt;xlsx&lt;/code&gt;, and ‘csv’. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; fields for contacts are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;primary email&lt;/li&gt;
+  &lt;li&gt;first name&lt;/li&gt;
+  &lt;li&gt;last name&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The following columns names are currently accepted by GetFetcher.com&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;first_name&lt;/li&gt;
+  &lt;li&gt;last_name&lt;/li&gt;
+  &lt;li&gt;city&lt;/li&gt;
+  &lt;li&gt;state&lt;/li&gt;
+  &lt;li&gt;email&lt;/li&gt;
+  &lt;li&gt;primary_email&lt;/li&gt;
+  &lt;li&gt;full_name&lt;/li&gt;
+  &lt;li&gt;affiliation&lt;/li&gt;
+  &lt;li&gt;company&lt;/li&gt;
+  &lt;li&gt;first&lt;/li&gt;
+  &lt;li&gt;last&lt;/li&gt;
+  &lt;li&gt;notes&lt;/li&gt;
+  &lt;li&gt;title&lt;/li&gt;
+  &lt;li&gt;prefix&lt;/li&gt;
+  &lt;li&gt;asst_first_name&lt;/li&gt;
+  &lt;li&gt;asst_email&lt;/li&gt;
+  &lt;li&gt;asst_phone_number&lt;/li&gt;
+  &lt;li&gt;mgr_pbl_name&lt;/li&gt;
+  &lt;li&gt;mgr_pbl_email&lt;/li&gt;
+  &lt;li&gt;partner&lt;/li&gt;
+  &lt;li&gt;twitter&lt;/li&gt;
+  &lt;li&gt;instagram&lt;/li&gt;
+  &lt;li&gt;secondary_email&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;One important thing to notice is we &lt;strong&gt;do not&lt;/strong&gt; accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be *secondary_email**  not &lt;strong&gt;secondary email&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetecher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (xls,xlsx) instead of using CSV so we are  able to successfully upload all of your contacts.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+        <link>/importing-contacts-to-fetcher</link>
+        <guid isPermaLink="true">/importing-contacts-to-fetcher</guid>
+      </item>
+    
+      <item>
         <title>How To Export Contacts From Apple To Fetcher</title>
         <description>&lt;p&gt;If you are currently using Apple’s Mail application for email, you need to pull your contacts from this application and upload them to GetFetcher.com. Since Apple’s Contacts application does not have a &lt;strong&gt;Export To CSV&lt;/strong&gt; functionality, you can convert the output to CSV in a few short steps.&lt;/p&gt;
 
