@@ -36,6 +36,8 @@ The following columns names are currently accepted by GetFetcher.com
 1. twitter
 1. instagram
 1. secondary_email
+1. primary_phone
+1. secondary_phone
 
 One important thing to notice is we **do not** accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be **secondary_email** not **secondary email**.
 
