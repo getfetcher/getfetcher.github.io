@@ -3,10 +3,10 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Fetcher</title>
+	<title>Adding Google Alerts To Press Recaps</title>
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="a fresh (so fetch) set of tools  elevating public relations and event management via data science">
-	<link rel="canonical" href="/">
+	<link rel="canonical" href="/add-google-alerts-to-press-recaps">
 	
 	<link href='//fonts.googleapis.com/css?family=Titillium+Web:400,200|Lato:300,400,700|Pacifico' rel='stylesheet' type='text/css' />
 	
@@ -19,7 +19,7 @@
 	mixpanel.init("55ef56f5e64295bfca50e477c0f0e0e2");</script><!-- end Mixpanel -->
 	
 	<script>
-	mixpanel.track("/index.html");
+	mixpanel.track("/add-google-alerts-to-press-recaps");
 	</script>
 	
 </head>
@@ -41,27 +41,48 @@
 		
 		<div class="page-content">
 			<div class="wrap">
-				<div class="home">
-	<h1>Posts</h1>
+				<div class="post" style="padding:1.85em 0.75em;">
+	<header class="post-header">
+		<p class="meta"></p>
+		
+		<h1>Adding Google Alerts To Press Recaps</h1>
+	</header>
 	
-	<ul class="posts">
-	
-		<li>
-			<span class="checkmark icon-checkmark"></span>
-			<a class="post-link" href="/importing-contacts-to-fetcher">Importing Contacts To Fetcher</a>
-		</li>
-	
-		<li>
-			<span class="checkmark icon-checkmark"></span>
-			<a class="post-link" href="/export-contacts-from-apple-to-fetcher">How To Export Contacts From Apple To Fetcher</a>
-		</li>
-	
-		<li>
-			<span class="checkmark icon-checkmark"></span>
-			<a class="post-link" href="/add-google-alerts-to-press-recaps">Adding Google Alerts To Press Recaps</a>
-		</li>
-	
-	</ul>
+	<article class="post-content">
+		<p>Fetcher Press Recaps give you the ability to monitor google alerts from within the Fetcher platform. Google Alerts are refreshed every 12 hours by Fetcher.com, and you can exports your Google Alerts to Excel Spreadsheets for clients.</p>
+
+<p>To add a new google alert to the fetcher platform, you need to first add the alert to Google. Login to your Google account (any account will work, it does not have to be the one connected to GetFetcher.com) and go to the <a href="https://www.google.com/alerts">Alerts Page</a>.</p>
+
+<p>You can add your Google alert by adding the alert name to the input field. In the following example, I am going to add Barack Obama as a new Google Alert</p>
+
+<p><img src="/images/posts/google_alert_1.png" alt="x" /></p>
+
+<p>Before adding the alert, select the <code>Show Options</code> dropdown and select </p>
+
+<ol>
+  <li>How Often –&gt; As It Happens</li>
+  <li>How Many –&gt; All Results</li>
+  <li>Deliver To –&gt; RSS Feed</li>
+</ol>
+
+<p>Now create the alert. </p>
+
+<p><img src="/images/posts/google_alert_2.png" alt="x" /></p>
+
+<p>Once the alert has been created, select the RSS icon on the alert and you will can get the RSS feed url, which is what you need to provide to the Fetcher platform. An example of what the RSS feed URL looks like can be found <a href="https://www.google.com/alerts/feeds/11300012763942333178/12368722016324478362">here</a></p>
+
+<p>Finally, your alert name and RSS feed url to GetFetcher.com</p>
+
+<p><img src="/images/posts/google_alert_3.png" alt="x" /></p>
+
+<p>Once the alert has been added, wait about 5-10 seconds for Fetcher to pull your RSS feed data and refresh your page:</p>
+
+<p><img src="/images/posts/google_alert_4.png" alt="x" /></p>
+
+<p>That is it! You can now export, sort, and search your google alerts.</p>
+
+
+	</article>
 </div>
 			</div>
 		</div>

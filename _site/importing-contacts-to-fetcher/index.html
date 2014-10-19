@@ -49,12 +49,12 @@
 	</header>
 	
 	<article class="post-content">
-		<p>Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are <code>xls</code>, <code>xlsx</code>, and ‘csv’. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only <strong>require</strong> fields for contacts are:</p>
+		<p>Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are <code>xls</code>, <code>xlsx</code>, and <code>csv</code>. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only <strong>require</strong> fields for contacts are:</p>
 
 <ol>
-  <li>primary email</li>
-  <li>first name</li>
-  <li>last name</li>
+  <li>primary email (your column should be named primary_email)</li>
+  <li>first name (your column should be named first_name)</li>
+  <li>last name (your column should be named last_name)</li>
 </ol>
 
 <p>The following columns names are currently accepted by GetFetcher.com</p>
@@ -83,11 +83,13 @@
   <li>twitter</li>
   <li>instagram</li>
   <li>secondary_email</li>
+  <li>primary_phone</li>
+  <li>secondary_phone</li>
 </ol>
 
-<p>One important thing to notice is we <strong>do not</strong> accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be *secondary_email**  not <strong>secondary email</strong>.</p>
+<p>One important thing to notice is we <strong>do not</strong> accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be <strong>secondary_email</strong> not <strong>secondary email</strong>.</p>
 
-<p>Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetecher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (xls,xlsx) instead of using CSV so we are  able to successfully upload all of your contacts.</p>
+<p>Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetcher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (<code>xls</code>,<code>xlsx</code>) instead of using CSV so we are  able to successfully upload all of your contacts.</p>
 
 	</article>
 </div>

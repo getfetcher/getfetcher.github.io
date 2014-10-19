@@ -8,12 +8,12 @@
     
       <item>
         <title>Importing Contacts To Fetcher</title>
-        <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt;, &lt;code&gt;xlsx&lt;/code&gt;, and ‘csv’. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; fields for contacts are:&lt;/p&gt;
+        <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt;, &lt;code&gt;xlsx&lt;/code&gt;, and &lt;code&gt;csv&lt;/code&gt;. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; fields for contacts are:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;primary email&lt;/li&gt;
-  &lt;li&gt;first name&lt;/li&gt;
-  &lt;li&gt;last name&lt;/li&gt;
+  &lt;li&gt;primary email (your column should be named primary_email)&lt;/li&gt;
+  &lt;li&gt;first name (your column should be named first_name)&lt;/li&gt;
+  &lt;li&gt;last name (your column should be named last_name)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;The following columns names are currently accepted by GetFetcher.com&lt;/p&gt;
@@ -42,11 +42,13 @@
   &lt;li&gt;twitter&lt;/li&gt;
   &lt;li&gt;instagram&lt;/li&gt;
   &lt;li&gt;secondary_email&lt;/li&gt;
+  &lt;li&gt;primary_phone&lt;/li&gt;
+  &lt;li&gt;secondary_phone&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;One important thing to notice is we &lt;strong&gt;do not&lt;/strong&gt; accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be *secondary_email**  not &lt;strong&gt;secondary email&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;One important thing to notice is we &lt;strong&gt;do not&lt;/strong&gt; accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be &lt;strong&gt;secondary_email&lt;/strong&gt; not &lt;strong&gt;secondary email&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetecher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (xls,xlsx) instead of using CSV so we are  able to successfully upload all of your contacts.&lt;/p&gt;
+&lt;p&gt;Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetcher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (&lt;code&gt;xls&lt;/code&gt;,&lt;code&gt;xlsx&lt;/code&gt;) instead of using CSV so we are  able to successfully upload all of your contacts.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
         <link>/importing-contacts-to-fetcher</link>
@@ -74,6 +76,46 @@
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
         <link>/export-contacts-from-apple-to-fetcher</link>
         <guid isPermaLink="true">/export-contacts-from-apple-to-fetcher</guid>
+      </item>
+    
+      <item>
+        <title>Adding Google Alerts To Press Recaps</title>
+        <description>&lt;p&gt;Fetcher Press Recaps give you the ability to monitor google alerts from within the Fetcher platform. Google Alerts are refreshed every 12 hours by Fetcher.com, and you can exports your Google Alerts to Excel Spreadsheets for clients.&lt;/p&gt;
+
+&lt;p&gt;To add a new google alert to the fetcher platform, you need to first add the alert to Google. Login to your Google account (any account will work, it does not have to be the one connected to GetFetcher.com) and go to the &lt;a href=&quot;https://www.google.com/alerts&quot;&gt;Alerts Page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can add your Google alert by adding the alert name to the input field. In the following example, I am going to add Barack Obama as a new Google Alert&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_1.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before adding the alert, select the &lt;code&gt;Show Options&lt;/code&gt; dropdown and select &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How Often –&amp;gt; As It Happens&lt;/li&gt;
+  &lt;li&gt;How Many –&amp;gt; All Results&lt;/li&gt;
+  &lt;li&gt;Deliver To –&amp;gt; RSS Feed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now create the alert. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_2.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the alert has been created, select the RSS icon on the alert and you will can get the RSS feed url, which is what you need to provide to the Fetcher platform. An example of what the RSS feed URL looks like can be found &lt;a href=&quot;https://www.google.com/alerts/feeds/11300012763942333178/12368722016324478362&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, your alert name and RSS feed url to GetFetcher.com&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_3.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the alert has been added, wait about 5-10 seconds for Fetcher to pull your RSS feed data and refresh your page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_4.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That is it! You can now export, sort, and search your google alerts.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+        <link>/add-google-alerts-to-press-recaps</link>
+        <guid isPermaLink="true">/add-google-alerts-to-press-recaps</guid>
       </item>
     
   </channel>
