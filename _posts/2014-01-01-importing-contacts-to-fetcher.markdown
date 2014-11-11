@@ -13,8 +13,8 @@ Importing contacts from existing platforms can uploaded to fetcher using Commas 
 The following columns names are currently accepted by GetFetcher.com
 
 
-1. first
-1. last
+1. first_name
+1. last_name
 1. city
 1. state
 1. email
