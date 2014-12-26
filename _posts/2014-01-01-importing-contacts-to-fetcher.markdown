@@ -20,7 +20,7 @@ The following columns names are currently accepted by GetFetcher.com
 1. primary_email
 1. full_name
 1. affiliation
-1. code
+1. code*
 1. notes
 1. title
 1. prefix
@@ -39,3 +39,16 @@ The following columns names are currently accepted by GetFetcher.com
 One important thing to notice is we **do not** accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be **secondary_email** not **secondary email**.
 
 Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetcher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (`xls`,`xlsx`) instead of using CSV so we are  able to successfully upload all of your contacts.
+
+#### Uploading Codes
+
+Codes are used for email templates and routing for blast in Events Correspondence. Different coded contacts receive different emails when you send a blast.
+
+The following codes are currently accepted by Fetcher (case insensitive)
+
+1. Civilian
+1. VIP
+1. Client
+1. Press
+
+If the code column is not specified, contacts are defaulted to Civilian.
