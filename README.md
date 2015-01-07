@@ -1,4 +1,1 @@
-socialq.github.io
-=================
-
-The blog of SocialQ
+The help blog for www.getfetcher.com
