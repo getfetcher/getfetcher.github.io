@@ -7,7 +7,8 @@ date:   2014-1-1
 Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are `xls`, `xlsx`, and `csv`. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only **require** fields for contacts are:
 
 1. primary email (your column should be named primary_email)
-1. full name (your column should be named full_name)
+1. first_name
+1. last_name
 
 The following columns names are currently accepted by GetFetcher.com
 
@@ -20,7 +21,7 @@ The following columns names are currently accepted by GetFetcher.com
 1. primary_email
 1. full_name
 1. affiliation
-1. code*
+1. code
 1. notes
 1. title
 1. prefix
