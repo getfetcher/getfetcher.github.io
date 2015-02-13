@@ -21,23 +21,18 @@ The following columns names are currently accepted by GetFetcher.com
 1. code
 1. primary_email
 1. full_name
-1. affiliation
+1. affiliations (multiple affiliations are specified using `;`)
+1. tags (multiple tags are specified using `;`)
 1. code
 1. notes
 1. title
-1. prefix
-1. asst_first_name
-1. asst_email
-1. asst_phone_number
-1. mgr_pbl_name
-1. mgr_pbl_email
 1. partner
 1. twitter
 1. instagram
 1. linkedin
 1. secondary_email
 1. primary_phone
-1. secondary_phone
+
 
 One important thing to notice is we **do not** accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be **secondary_email** not **secondary email**. All of your columns should be defined in lower case characters also. Thank you!
 
@@ -54,4 +49,4 @@ The following codes are currently accepted by Fetcher (case insensitive)
 1. Client
 1. Press
 
-If the code column is not specified, or if you leave the cell blank for certain contacts, all contacts missing codes will be defaulted to Civilian.
+If the code column is not specified, or if you leave the cell blank for certain contacts, all contacts missing codes will be defaulted to `Civilian`.
