@@ -10,7 +10,7 @@ Importing contacts from existing platforms can uploaded to fetcher using Commas 
 1. first_name
 1. last_name
 
-Don't worry if all of your data is not formatted correctly -- fetcher will let you fix any errors you may have before you upload them, as long as your columns are defined correctly.
+Don't worry if all of your data is not formatted correctly -- GetFetcher will let you fix any errors you may have before you upload them, as long as your columns are defined correctly.
 
 The following columns names are currently accepted by GetFetcher.com
 
