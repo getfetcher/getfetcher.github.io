@@ -8,13 +8,15 @@
     
       <item>
         <title>Importing Contacts To Fetcher</title>
-        <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt;, &lt;code&gt;xlsx&lt;/code&gt;, and &lt;code&gt;csv&lt;/code&gt;. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; fields for contacts are:&lt;/p&gt;
+        <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt; and &lt;code&gt;xlsx&lt;/code&gt;. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; columns for contacts are:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;primary email (your column should be named primary_email)&lt;/li&gt;
-  &lt;li&gt;first name (your column should be named first_name)&lt;/li&gt;
-  &lt;li&gt;last name (your column should be named last_name)&lt;/li&gt;
+  &lt;li&gt;primary_email &lt;/li&gt;
+  &lt;li&gt;first_name&lt;/li&gt;
+  &lt;li&gt;last_name&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;Don’t worry if all of your data is not formatted correctly – GetFetcher will let you fix any errors you may have before you upload them, as long as your columns are defined correctly.&lt;/p&gt;
 
 &lt;p&gt;The following columns names are currently accepted by GetFetcher.com&lt;/p&gt;
 
@@ -23,32 +25,40 @@
   &lt;li&gt;last_name&lt;/li&gt;
   &lt;li&gt;city&lt;/li&gt;
   &lt;li&gt;state&lt;/li&gt;
-  &lt;li&gt;email&lt;/li&gt;
+  &lt;li&gt;code&lt;/li&gt;
   &lt;li&gt;primary_email&lt;/li&gt;
   &lt;li&gt;full_name&lt;/li&gt;
-  &lt;li&gt;affiliation&lt;/li&gt;
-  &lt;li&gt;company&lt;/li&gt;
-  &lt;li&gt;first&lt;/li&gt;
-  &lt;li&gt;last&lt;/li&gt;
+  &lt;li&gt;affiliations (multiple affiliations are specified using &lt;code&gt;;&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;tags (multiple tags are specified using &lt;code&gt;;&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;code&lt;/li&gt;
   &lt;li&gt;notes&lt;/li&gt;
   &lt;li&gt;title&lt;/li&gt;
-  &lt;li&gt;prefix&lt;/li&gt;
-  &lt;li&gt;asst_first_name&lt;/li&gt;
-  &lt;li&gt;asst_email&lt;/li&gt;
-  &lt;li&gt;asst_phone_number&lt;/li&gt;
-  &lt;li&gt;mgr_pbl_name&lt;/li&gt;
-  &lt;li&gt;mgr_pbl_email&lt;/li&gt;
   &lt;li&gt;partner&lt;/li&gt;
   &lt;li&gt;twitter&lt;/li&gt;
   &lt;li&gt;instagram&lt;/li&gt;
+  &lt;li&gt;linkedin&lt;/li&gt;
   &lt;li&gt;secondary_email&lt;/li&gt;
   &lt;li&gt;primary_phone&lt;/li&gt;
-  &lt;li&gt;secondary_phone&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;One important thing to notice is we &lt;strong&gt;do not&lt;/strong&gt; accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be &lt;strong&gt;secondary_email&lt;/strong&gt; not &lt;strong&gt;secondary email&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;One important thing to notice is we &lt;strong&gt;do not&lt;/strong&gt; accept column names with spaces in them: if you want to upload contacts with secondary email addresses, the column name needs to be &lt;strong&gt;secondary_email&lt;/strong&gt; not &lt;strong&gt;secondary email&lt;/strong&gt;. All of your columns should be defined in lower case characters also. Thank you!&lt;/p&gt;
 
 &lt;p&gt;Another very important thing to pay attention to is commas when uploading CSV files: CSV files, by definiton, are separated by commas. For GetFetcher.com to successfully upload your file, there needs to be the same number of columns in each row, otherwise that row will be skipped. Therefore, if you have fields with commas in them (such as the affiliation or company fields), you should convert that field to Excel (&lt;code&gt;xls&lt;/code&gt;,&lt;code&gt;xlsx&lt;/code&gt;) instead of using CSV so we are  able to successfully upload all of your contacts.&lt;/p&gt;
+
+&lt;h4 id=&quot;uploading-codes&quot;&gt;Uploading Codes&lt;/h4&gt;
+
+&lt;p&gt;We strongly recommend you provide the &lt;code&gt;code&lt;/code&gt; column. Codes are used for email templates and routing for blast in Events Correspondence. Different coded contacts receive different emails when you send a blast.&lt;/p&gt;
+
+&lt;p&gt;The following codes are currently accepted by Fetcher (case insensitive)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Civilian&lt;/li&gt;
+  &lt;li&gt;VIP&lt;/li&gt;
+  &lt;li&gt;Client&lt;/li&gt;
+  &lt;li&gt;Press&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If the code column is not specified, or if you leave the cell blank for certain contacts, all contacts missing codes will be defaulted to &lt;code&gt;Civilian&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
         <link>/importing-contacts-to-fetcher</link>
@@ -84,7 +94,7 @@
 
 &lt;p&gt;To add a new google alert to the fetcher platform, you need to first add the alert to Google. Login to your Google account (any account will work, it does not have to be the one connected to GetFetcher.com) and go to the &lt;a href=&quot;https://www.google.com/alerts&quot;&gt;Alerts Page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;You can add your Google alert by adding the alert name to the input field. In the following example, I am going to add Barack Obama as a new Google Alert&lt;/p&gt;
+&lt;p&gt;You can add your Google alert by adding the alert name to the input field. In the following example, I am going to add “The Guggenheim” as a new Google Alert&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_1.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
 

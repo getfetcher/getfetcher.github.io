@@ -8,7 +8,7 @@ Fetcher Press Recaps give you the ability to monitor google alerts from within t
 
 To add a new google alert to the fetcher platform, you need to first add the alert to Google. Login to your Google account (any account will work, it does not have to be the one connected to GetFetcher.com) and go to the [Alerts Page](https://www.google.com/alerts).
 
-You can add your Google alert by adding the alert name to the input field. In the following example, I am going to add Barack Obama as a new Google Alert
+You can add your Google alert by adding the alert name to the input field. In the following example, I am going to add "The Guggenheim" as a new Google Alert
 
 ![x]({{ baseurl.url }}/images/posts/google_alert_1.png)
 
