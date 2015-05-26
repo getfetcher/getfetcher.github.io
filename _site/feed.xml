@@ -7,6 +7,19 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The Fetcher Manual</title>
+        <description>&lt;h4 id=&quot;getting-fetch&quot;&gt;GETTING FETCH&lt;/h4&gt;
+
+&lt;p&gt;Fetcher is a monthly subscription-based service designed to optimize PR, help you avoid errors and save you time and annoyance so you have more time to socialize IRL. The more you use Fetcher, the more useful it becomes; helping you collect data indigenous to your events, forecasting return rates on attendance, gathering press coverage and organizing responses from the people you care about, without the clutter previously associated with the event promotion process. Fetcher keeps your contacts fresh; because you only send them what they want without over or under following up; and quickly and easily allows you to share hi and lo res photo galleries in a clean, pretty, social-friendly format.&lt;/p&gt;
+
+&lt;p&gt;Sign up for Fetcher easily with the option to end your service at any time. Your first event is on us. Tell us what you love or don’t love. We welcome feedback because Fetcher is an iterative pet that will continue to incorporate your user feedback as you populate it with your proprietary data.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+        <link>/the-fetcher-manual</link>
+        <guid isPermaLink="true">/the-fetcher-manual</guid>
+      </item>
+    
+      <item>
         <title>Importing Contacts To Fetcher</title>
         <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt; and &lt;code&gt;xlsx&lt;/code&gt;. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; columns for contacts are:&lt;/p&gt;
 
