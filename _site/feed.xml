@@ -50,7 +50,12 @@
 
 &lt;ol&gt;
   &lt;li&gt;Click &lt;em&gt;Events&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Click &lt;em&gt;Add New Event Button&lt;/em&gt; &lt;strong&gt;icon&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Click &lt;em&gt;Add New Event Button&lt;/em&gt; &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/images/fetcher-button-plus.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
   &lt;li&gt;&lt;em&gt;Select Venues&lt;/em&gt; from drop down&lt;/li&gt;
   &lt;li&gt;Name &lt;em&gt;Event&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Name &lt;em&gt;Event Type&lt;/em&gt; (i.e. Cocktail, Luncheon, Soiree, or Pitch (Internal Ref)&lt;/li&gt;
@@ -67,7 +72,7 @@
 
 &lt;p&gt;As you get used to the system, create a new list from excel or csv export, (doubles of contacts will merge into your master contacts list) and use the upload button at the top of the contact page:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;icon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/images/fetcher-button-upload.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;photo-galleries&quot;&gt;PHOTO GALLERIES&lt;/h4&gt;
 
@@ -108,7 +113,10 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;You must click save (&lt;strong&gt;icon&lt;/strong&gt;) to save a draft before sending or it will send the most recent saved draft. All your sent mail is viewable by clicking this button &lt;strong&gt;icon&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You must click save (&lt;img src=&quot;/media/images/fetcher-button-save.jpg&quot; alt=&quot;&quot; /&gt;
+) to save a draft before sending or it will send the most recent saved draft. All your sent mail is viewable by clicking this button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/images/fetcher-button-eye.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Feel free to test on yourself as internal contacts as many times you want before blasting or sending personal notes…to get the look JUST RIGHT… #SoFetch.&lt;/p&gt;
 
@@ -145,13 +153,13 @@
 &lt;p&gt;Galleries or single images can be embedded easily in email correspondence by clicking EVENTS -&amp;gt; PHOTOS.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Hover over an album and click over the share album button (&lt;strong&gt;icon&lt;/strong&gt;).&lt;/li&gt;
+  &lt;li&gt;Hover over an album and click over the share album button (&lt;img src=&quot;/media/images/fetcher-button-share-album.jpg&quot; alt=&quot;&quot; /&gt;).&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;A url with link to your gallery will pop up and can be cut and pasted into any correspondence.&lt;/p&gt;
 
-    &lt;p&gt;(&lt;strong&gt;image&lt;/strong&gt;)&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/media/images/fetcher-shared-dropdown.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Make sure you title your gallery and photos what you want the recipient to see…If you want to share or embed a single photo from an album, simply click on the album and click the share (&lt;strong&gt;icon&lt;/strong&gt;) choose a hi res or lo res version of your icon and cut and paste the url in the (&lt;strong&gt;icon&lt;/strong&gt;) draft and save.&lt;/li&gt;
+  &lt;li&gt;Make sure you title your gallery and photos what you want the recipient to see…If you want to share or embed a single photo from an album, simply click on the album and click the share (&lt;img src=&quot;/media/images/fetcher-button-share-image.jpg&quot; alt=&quot;&quot; /&gt;) choose a hi res or lo res version of your icon and cut and paste the url in the (&lt;img src=&quot;/media/images/fetcher-button-share-image-alt.jpg&quot; alt=&quot;&quot; /&gt;) draft and save.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;google-alerts&quot;&gt;GOOGLE ALERTS&lt;/h4&gt;
@@ -162,9 +170,9 @@
   &lt;li&gt;Type in the name of alert&lt;/li&gt;
   &lt;li&gt;Click Show Options and Deliver to: RSS feed. &lt;/li&gt;
   &lt;li&gt;Create Alert. &lt;/li&gt;
-  &lt;li&gt;Click on RSS Icon(&lt;strong&gt;icon&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;Click on RSS Icon(&lt;img src=&quot;/media/images/fetcher-rss-icon.png&quot; alt=&quot;&quot; /&gt;)&lt;/li&gt;
   &lt;li&gt;Cut and paste url into Google Alert url - titling it whatever you want.&lt;/li&gt;
-  &lt;li&gt;Click the &lt;strong&gt;icon&lt;/strong&gt; icon and the tracking begins!&lt;/li&gt;
+  &lt;li&gt;Click the (&lt;img src=&quot;/media/images/fetcher-button-plus.jpg&quot; alt=&quot;&quot; /&gt;) icon and the tracking begins!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;troubleshooting&quot;&gt;TROUBLESHOOTING&lt;/h4&gt;

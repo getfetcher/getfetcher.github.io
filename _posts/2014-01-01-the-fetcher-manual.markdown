@@ -46,7 +46,10 @@ Input venues as you choose them for events; feel free to have a “virtual venue
 Create events:
 
 1. Click *Events*
-1. Click *Add New Event Button* **icon**
+1. Click *Add New Event Button* 
+
+![My helpful screenshot]({{ baseurl.url }}/media/images/fetcher-button-plus.jpg)
+
 1. *Select Venues* from drop down
 1. Name *Event*
 1. Name *Event Type* (i.e. Cocktail, Luncheon, Soiree, or Pitch (Internal Ref)
@@ -60,7 +63,8 @@ Once you have an event, add contacts to your guest list by clicking the guests y
 
 As you get used to the system, create a new list from excel or csv export, (doubles of contacts will merge into your master contacts list) and use the upload button at the top of the contact page:
 
-**icon**
+![My helpful screenshot]({{ baseurl.url }}/media/images/fetcher-button-upload.jpg)
+
 
 ####PHOTO GALLERIES
 
@@ -96,7 +100,11 @@ Each **CODE (VIP, Civilian, Press and Client)** has a different draft saved with
 
 1. Know who it’s going to 
 
-You must click save (**icon**) to save a draft before sending or it will send the most recent saved draft. All your sent mail is viewable by clicking this button **icon**.
+You must click save (![]({{ baseurl.url }}/media/images/fetcher-button-save.jpg)
+) to save a draft before sending or it will send the most recent saved draft. All your sent mail is viewable by clicking this button.
+
+![]({{ baseurl.url }}/media/images/fetcher-button-eye.jpg)
+
 
 Feel free to test on yourself as internal contacts as many times you want before blasting or sending personal notes…to get the look JUST RIGHT... #SoFetch.
 
@@ -136,11 +144,12 @@ After an event, we recommend reviewing the “Checked-In” list to make sure no
 Galleries or single images can be embedded easily in email correspondence by clicking EVENTS -> PHOTOS.
 
 
-1. Hover over an album and click over the share album button (**icon**).
+1. Hover over an album and click over the share album button (![]({{ baseurl.url }}/media/images/fetcher-button-share-album.jpg)).
 1. A url with link to your gallery will pop up and can be cut and pasted into any correspondence.
 
-    (**image**)
-1. Make sure you title your gallery and photos what you want the recipient to see…If you want to share or embed a single photo from an album, simply click on the album and click the share (**icon**) choose a hi res or lo res version of your icon and cut and paste the url in the (**icon**) draft and save.
+    ![]({{ baseurl.url }}/media/images/fetcher-shared-dropdown.png)
+    
+1. Make sure you title your gallery and photos what you want the recipient to see…If you want to share or embed a single photo from an album, simply click on the album and click the share (![]({{ baseurl.url }}/media/images/fetcher-button-share-image.jpg)) choose a hi res or lo res version of your icon and cut and paste the url in the (![]({{ baseurl.url }}/media/images/fetcher-button-share-image-alt.jpg)) draft and save.
 
 ####GOOGLE ALERTS
 Add multiple google alerts to monitor online coverage of your event.
@@ -149,9 +158,9 @@ Add multiple google alerts to monitor online coverage of your event.
 1. Type in the name of alert
 1. Click Show Options and Deliver to: RSS feed. 
 1. Create Alert. 
-1. Click on RSS Icon(**icon**)
+1. Click on RSS Icon(![]({{ baseurl.url }}/media/images/fetcher-rss-icon.png))
 1. Cut and paste url into Google Alert url - titling it whatever you want.
-1. Click the **icon** icon and the tracking begins!
+1. Click the (![]({{ baseurl.url }}/media/images/fetcher-button-plus.jpg)) icon and the tracking begins!
 
 ####TROUBLESHOOTING
 Always refresh the url of the page if something is not loading; that solves the problem 90% of the time. If you encounter additional trouble email [info@getfetcher.com](info@getfetcher.com) and we will get back to you stat. *Right on top of that Rose*.
