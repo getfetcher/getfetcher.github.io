@@ -30,9 +30,13 @@ a {
 .site-footer p {
 	color:rgba(0,0,0,0.3);
 }
+.site-footer a.sml {
+	font-size:0.8em;
+	letter-spacing:2px;
+}
 a:hover,
 .site-nav a:hover {
-	color: #a2d28d;
+	color: #5bd4f6;
 }
 
 a,
@@ -62,7 +66,7 @@ li,
 
 /* HEADER */
 .site-header {
-	background:#fff;
+	background:#fdfdfd;
 	border-bottom: 1px solid #f0f0f0;
 	min-height: 56px;
 }
@@ -165,15 +169,14 @@ li,
 }
 
 .posts li {
-	padding: 2.5em 0.75em;
+	padding: 1.5em 0.75em;
 }
 
 .posts .post-link {
-	font-family:"Lato",sans-serif;
-	font-size: 2em;
+	font-family:"Ralewy",sans-serif;
+	font-size: 1.1em;
 	font-weight: 300;
 	letter-spacing: 0.1em;
-	line-height: 1;
 }
 
 .posts .post-date,
@@ -201,7 +204,7 @@ li,
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-	font-family:"Lato",sans-serif;
+	font-family:"Raleway",sans-serif;
 	font-size: 2em;
 	font-weight: 300;
 	letter-spacing: 0.1em;
@@ -227,23 +230,23 @@ li,
 .post-content h5,
 .post-content h6 {
 	font-weight: 300;
-	line-height: 1;
 	margin: 40px 0 20px;
 }
 
 .post-content h2 {
 	font-size: 32px;
-	letter-spacing: -1.25px;
+	letter-spacing: 2px;
 }
 
 .post-content h3 {
 	font-size: 26px;
-	letter-spacing: -1px;
+	letter-spacing: 2px;
 }
 
 .post-content h4 {
-	font-size: 20px;
-	letter-spacing: -1px;
+	font-size: 16px;
+	letter-spacing: 0.5em;
+	text-transform:uppercase;
 }
 
 .post-content blockquote {
