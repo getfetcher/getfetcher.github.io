@@ -79,13 +79,13 @@
 
 &lt;h4 id=&quot;save-the-dates&quot;&gt;SAVE-THE-DATES&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;Save-the-Dates&lt;/em&gt; may be sent one time per person per event.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Save-the-Dates&lt;/em&gt; may be sent one time per person per event. &lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Invites&lt;/em&gt; may be sent one time per person per event.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Invites&lt;/em&gt; may be sent one time per person per event. &lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Follow-ups&lt;/em&gt; may be sent an unlimited number of times &lt;em&gt;(that’s Fetcher!)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Thank You&lt;/em&gt; notes may be sent one time per person per event.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thank You&lt;/em&gt; notes may be sent one time per person per event. &lt;/p&gt;
 
 &lt;p&gt;Whether a draft has been sent can be seen by clicking the eye at the top of the page. If you have already sent a Save-the-Date, Invite or Thank you to a guest for an event &lt;strong&gt;the system will stop you from doing it twice&lt;/strong&gt; &lt;em&gt;(we’ve all been there :)&lt;/em&gt;&lt;/p&gt;
 
@@ -104,7 +104,7 @@
     &lt;p&gt;&lt;strong&gt;AND&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Know who it’s going to&lt;/p&gt;
+    &lt;p&gt;Know who it’s going to &lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -160,8 +160,8 @@
 &lt;ol&gt;
   &lt;li&gt;Go to &lt;a href=&quot;https://www.google.com/alerts&quot;&gt;https://www.google.com/alerts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Type in the name of alert&lt;/li&gt;
-  &lt;li&gt;Click Show Options and Deliver to: RSS feed.&lt;/li&gt;
-  &lt;li&gt;Create Alert.&lt;/li&gt;
+  &lt;li&gt;Click Show Options and Deliver to: RSS feed. &lt;/li&gt;
+  &lt;li&gt;Create Alert. &lt;/li&gt;
   &lt;li&gt;Click on RSS Icon(&lt;strong&gt;icon&lt;/strong&gt;)&lt;/li&gt;
   &lt;li&gt;Cut and paste url into Google Alert url - titling it whatever you want.&lt;/li&gt;
   &lt;li&gt;Click the &lt;strong&gt;icon&lt;/strong&gt; icon and the tracking begins!&lt;/li&gt;
@@ -181,7 +181,7 @@
         <description>&lt;p&gt;Importing contacts from existing platforms can uploaded to fetcher using Commas Separated Files (CSV) or Excel Files. Currently the only three extensions we support are &lt;code&gt;xls&lt;/code&gt; and &lt;code&gt;xlsx&lt;/code&gt;. Before attempting to upload a list of contacts, you need to format the columns correct so that our software understands which fields to populate in the contact table. Currently, the only &lt;strong&gt;require&lt;/strong&gt; columns for contacts are:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;primary_email&lt;/li&gt;
+  &lt;li&gt;primary_email &lt;/li&gt;
   &lt;li&gt;first_name&lt;/li&gt;
   &lt;li&gt;last_name&lt;/li&gt;
 &lt;/ol&gt;
@@ -269,7 +269,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_1.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Before adding the alert, select the &lt;code&gt;Show Options&lt;/code&gt; dropdown and select&lt;/p&gt;
+&lt;p&gt;Before adding the alert, select the &lt;code&gt;Show Options&lt;/code&gt; dropdown and select &lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;How Often –&amp;gt; As It Happens&lt;/li&gt;
@@ -277,7 +277,7 @@
   &lt;li&gt;Deliver To –&amp;gt; RSS Feed&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Now create the alert.&lt;/p&gt;
+&lt;p&gt;Now create the alert. &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/google_alert_2.png&quot; alt=&quot;x&quot; /&gt;&lt;/p&gt;
 
