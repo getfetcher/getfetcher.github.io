@@ -85,6 +85,7 @@ Create as many galleries as you like. Share the whole gallery for download or sh
 *Thank You* notes may be sent one time per person per event. 
 
 Whether a draft has been sent can be seen by clicking the eye at the top of the page. If you have already sent a Save-the-Date, Invite or Thank you to a guest for an event **the system will stop you from doing it twice** *(we’ve all been there :)*
+Don't forget to paste and save the appropriate signature into your emails; whether that's your evergreen signature or customized info for your event.
 
 ***Here’s where it gets interesting….***
 
